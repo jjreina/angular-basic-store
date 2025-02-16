@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: cadetblue;
+}
+
+.container {
+  height: 800px;
+  width: 1200px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background: #2e4d4e;
+}
+
+hr {
+  background-color: cadetblue;
+  border: none;
+  height: 1px;
+}

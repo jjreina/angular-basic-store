@@ -1,0 +1,7 @@
+<div class="card_container">
+  @for (product of this.products; track $index) {
+    <products-components-product
+      [product]="product"
+    ></products-components-product>
+  }
+</div>

@@ -1,0 +1,11 @@
+<div class="selector-section">
+  <span>Select Category: </span>
+  <select (change)="emitOption($event)">
+    <option value="">Select</option>
+    @for (category of this.categories; track category.id) {
+      <option value="{{ category.CategoryValue }}">
+        {{ category.CatName }}
+      </option>
+    }
+  </select>
+</div>

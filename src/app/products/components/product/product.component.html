@@ -1,0 +1,7 @@
+<div class="card">
+  <img src="{{ this.product.images[0].baseUrl }}" alt="Image not found" />
+  <div class="card_text" (mouseover)="showProduct()">
+    <p>{{ product.name }}</p>
+    <span>{{ product.price.formattedValue }}</span>
+  </div>
+</div>

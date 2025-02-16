@@ -1,0 +1,30 @@
+span {
+  color: cadetblue;
+}
+
+.card {
+  margin: 20px 5px 5px 10px;
+  border: 1px solid cadetblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  flex-basis: 20%;
+}
+
+img {
+  border-radius: 5px 5px 5px 5px;
+  width: 75%;
+  margin: 3px 3px 3px 3px;
+}
+
+.card_text {
+  width: auto;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: cadetblue;
+  margin: 3px 2px 3px 2px;
+}
+
+p {
+  font-weight: bold;
+}
